@@ -1,21 +1,21 @@
 # k8s
-kubectl rollout restart deployment hello-kubernetes
-kubectl exec hello-kubernetes-7f47f457f4-vvswc -- wget -O - -q http://hello-kubernetes |grep hello-kubernetes
+kubectl rollout restart deployment hello-kubernetes </br>
+kubectl exec hello-kubernetes-7f47f457f4-vvswc -- wget -O - -q http://hello-kubernetes |grep hello-kubernetes</br>
 
 # tshark
-tshark -i eth0 -Y "http" :         wireshark style
-tshark -i eth0 -f "not port 22"  : libcap style
-tshark --color -v -c2
+tshark -i eth0 -Y "http" :         wireshark style</br>
+tshark -i eth0 -f "not port 22"  : libcap style</br>
+tshark --color -v -c2</br>
 
 # tcpdump
-host
-src
-dst
-net 8.8.8.8/24
-port
-portrange 21-23
-src port 
-icmp || tcp
-less || greater || <=128  : packet size
+host</br>
+src</br>
+dst</br>
+net 8.8.8.8/24</br>
+port</br>
+portrange 21-23</br>
+src port</br> 
+icmp || tcp</br>
+less || greater || <=128  : packet size</br>
 
-"dst 8.8.8.8 or dst 8.8.4.4" and port 443
+"dst 8.8.8.8 or dst 8.8.4.4" and port 443</br>
