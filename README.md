@@ -24,3 +24,6 @@ less || greater || <=128  : packet size</br>
 # containerd
 ctr</br>
 crictl</br>
+
+# diagnostic
+https://access.redhat.com/documentation/en-us/red_hat_openstack_platform/10/html/ovs-dpdk_end_to_end_troubleshooting_guide/nfv_command_cheatsheet </br>
